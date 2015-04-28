@@ -252,7 +252,6 @@ class DatabaseWrapper(NonrelDatabaseWrapper):
             document_class=dict,
             tz_aware=False,
             connect=True,
-            w=0,
         )
         conn_options.update(options)
 
